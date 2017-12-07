@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar color="messenger">
+    <ion-title>Comentario</ion-title>
+
+    <ion-buttons end>
+    <button ion-button icon-only (click)="Facebook()">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </button>
+  </ion-buttons>
+  
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-list>
+
+        <ion-item>
+          <ion-label color="primary" floating>Comentarios</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label color="primary" stacked>Nombre</ion-label>
+            <ion-input type="text" clearInput></ion-input>
+          </ion-item>
+
+          <ion-item>
+              <ion-label color="primary" stacked>Celular</ion-label>
+              <ion-input type="text" clearInput></ion-input>
+            </ion-item>
+
+        <ion-item>
+            <ion-label color="primary" stacked>E-mail</ion-label>
+            <ion-input type="email" clearInput></ion-input>
+          </ion-item>
+
+          <ion-item>
+              <ion-label color="primary" stacked>Asunto</ion-label>
+              <ion-input type="text" clearInput></ion-input>
+            </ion-item>
+      
+        <ion-item>
+          <ion-textarea placeholder="Descripcion"></ion-textarea>
+        </ion-item>
+      </ion-list>
+
+      <button ion-button outline block color="messenger">Enviar</button>
+
+</ion-content>

@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Zahira App</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="Comentario()">
+        <ion-icon name="md-chatbubbles"></ion-icon> 
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+  <ion-card>
+    <ion-card-header>
+      Zahira App
+    </ion-card-header>
+    <ion-card-content>
+      <p class="cardp1">en este momento estamos en diseño e implementacion de la app pronto estaremos en funcionamiento</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="./assets/img/reparacion.jpg"/>
+  </ion-card>
+
+
+  <ion-footer>
+      <ion-toolbar color="dark">
+        <ion-title>Cergersoft &copy;</ion-title>
+
+        <ion-buttons end>
+            <button ion-button icon-only (click)="Facebook()">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </button>
+          </ion-buttons>
+
+          <ion-buttons end>
+              <button ion-button icon-only (click)="Facebook()">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </button>
+            </ion-buttons>
+
+      </ion-toolbar>
+    </ion-footer>
+
+</ion-content>
